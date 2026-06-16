@@ -1,0 +1,94 @@
+baseurl = "https://moonlightmazed.github.io/"
+defaultContentLanguage = "zh"
+languageCode = "zh-Hans"
+title = "MoonLightMaze’s Blog"
+theme = "dream"
+hasCJKLanguage = true
+pagination.pagerSize = 60
+# [services]
+# [services.disqus]
+# shortname = ""
+# [services.googleAnalytics]
+# ID = ""
+ignoreLogs = ["warning-goldmark-raw-html"]
+[params]
+# zenMode = true
+
+lightTheme = "emerald"
+#darkTheme = "forest"
+
+# backgroundImage = "img/global-background.jpg"
+# backgroundImageDark = ""
+
+author = "MoonlightMaze"
+# description = ""
+avatar = "img/avatar.webp"
+headerTitle = "MoonLightMaze’s Blog"
+motto = "代码写的越急，程序跑得越慢"
+showSidebarAd = false
+footerBottomText = ""
+
+# rss = true
+
+#utterancesRepo = "https://moonlightmazed.github.io/"
+
+# valine = true
+# LEANCLOUD_APP_ID = ""
+# LEANCLOUD_APP_KEY = ""
+
+# waline = true
+# walineServer = ""
+
+email = "wangguangzme@qq.com"
+
+siteStartYear = 2020
+
+
+favicon = "img/favicon.ico"
+
+# Syntax highlighting
+#customSyntaxHighlighting = true
+
+# options
+#stickyNav = true
+reorderNavItems = [
+    "home",
+    "categories",
+    "tags",
+    "posts",
+    "search",
+    "about",
+    "github",
+]
+
+
+# collapseNavItems = ["posts", "categories", "tags"]
+# noDefaultSummaryCover = true
+showTableOfContents = true
+#showSummaryCoverInPost = true
+imageZoomableInPost = true
+showPrevNextPost = true
+# reorderShares = []
+enableEmoji = true
+enableSearch = true
+
+# [params.twikoo]
+# enabled = true
+# envID = ""
+# region = ""
+# lang = ""
+
+# [params.advanced]
+# customCSS = ["css/custom.css"]
+# customJS = []
+[params.experimental]
+jsDate = true
+jsDateFormat = "yyyy年MM月dd日"
+
+[markup]
+[markup.goldmark.parser.attribute]
+block = true
+
+[params.navItems]
+home = { href = "/", icon = "home", title = "home" }
+github = { href = "https://github.com/moonlightmazed", target = "_blank", icon = "logo-github", title = "GitHub" }

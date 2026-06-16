@@ -1,0 +1,13 @@
+<div>
+  {{ if site.Params.siteStartYear }}
+ 
+  {{ else }}
+ 
+  {{ end }}
+
+  {{ if site.Params.footerBottomText }}
+  <p>{{ site.Params.footerBottomText | safeHTML }}</p>
+  {{ else }}
+
+  {{ end }}
+</div>
