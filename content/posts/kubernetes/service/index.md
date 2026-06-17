@@ -11,7 +11,7 @@ images:
 categories:
   - Kubernetes
 tags:
-  - Service
+  - k8s-Service
 # nolastmod: true
 draft: false
 description: "Kubernetes `Service`定义了这样一种抽象：逻辑上的一组 `Pod`，一种可以访问它们的策略 —— 通常被称为微服务。这一组 `Pod `能够被 `Service` 访问到，通常是通过 `selector`实现的。"
@@ -119,7 +119,7 @@ Kubernetes 中 Service 有以下 4 中类型：
 
 Service 域名格式：`$(service name).$(namespace).svc.cluster.local`，其中 cluster.local 为指定的集群的域名
 
-### ![image-20250327161622306](index.assets/image-20250327161622306.png) 
+### ![image-20250327161622306](index.assets/image-20250327161622306.png)
 
 ## 四、Service组件调用流程
 
@@ -145,7 +145,7 @@ spec:
   ports:
   - protocol: TCP
     port: 80
-    targetPort: 80 
+    targetPort: 80
 ```
 
 ## 六、NodePort
@@ -172,10 +172,10 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.22
-        ports:
-        - containerPort: 80
+        - name: nginx
+          image: nginx:1.22
+          ports:
+            - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
@@ -186,11 +186,8 @@ spec:
   selector:
     app: nginx
   ports:
-  - protocol: TCP
-    port: 80
-    targetPort: 80
-    nodePort: 30080  # 可以指定一个端口号，如果不指定，会自动分配一个
-
-
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+      nodePort: 30080 # 可以指定一个端口号，如果不指定，会自动分配一个
 ```
-

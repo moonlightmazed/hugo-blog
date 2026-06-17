@@ -11,7 +11,7 @@ images:
 categories:
   - Kubernetes
 tags:
-  - PV
+  - k8s-PV
 # nolastmod: true
 draft: false
 description: "PersistentVolume（PV）是 Kubernetes 中用于抽象和管理集群存储资源的核心对象，为用户屏蔽底层存储实现细节，提供统一的存储资源池，支持静态和动态分配模式。以下是 PV 的核心概念与工作机制。"
