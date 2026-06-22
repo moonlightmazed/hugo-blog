@@ -1,5 +1,5 @@
 ---
-title: 开发标准
+title: 配置模块
 date: 2021-07-11T14:21:02+08:00
 lastmod: 2021-07-12T14:21:02+08:00
 author: MoonlightMaze
@@ -14,7 +14,7 @@ tags:
   - 开发标准
 # nolastmod: true
 draft: false
-description: "开发标准主要记录基建层大厂的开发规范和标准"
+description: "开发标准主要记录基建层大厂的开发规范和标准，本模块主要讲解配置的封装"
 
 ---
 
@@ -159,4 +159,4 @@ func updateConfig(cfg *AppConfig) {
 
 
 
-# 日志
+# 实现
