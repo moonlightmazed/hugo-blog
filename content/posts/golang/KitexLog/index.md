@@ -1,7 +1,7 @@
 ---
 title: Kitex日志封装
-date: 2023-07-2T14:21:02+08:00
-lastmod: 2023-07-2T14:22:02+08:00
+date: 2023-07-02T14:21:02+08:00
+lastmod: 2023-07-02T14:22:02+08:00
 author: MoonlightMaze
 # avatar: /img/author.jpg
 # authorlink: https://author.site
