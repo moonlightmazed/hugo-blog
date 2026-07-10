@@ -1,5 +1,8 @@
 ---
 title: 灰度发布 + Prometheus 监控告警 + Vegeta 压测
+slug: gray-release-prometheus-alert-vegeta-benchmark
+aliases:
+  - /posts/kitex/灰度发布-+-prometheus-监控告警-+-vegeta-压测/
 date: 2025-01-03T14:21:02+08:00
 lastmod: 2025-01-03T14:21:02+08:00
 author: MoonlightMaze

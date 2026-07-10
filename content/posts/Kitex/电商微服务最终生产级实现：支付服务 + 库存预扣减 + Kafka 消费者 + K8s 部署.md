@@ -1,5 +1,8 @@
 ---
 title: 电商微服务最终生产级实现：支付服务 + 库存预扣减 + Kafka 消费者 + K8s 部署
+slug: ecommerce-microservice-payment-kafka-k8s
+aliases:
+  - /posts/kitex/电商微服务最终生产级实现支付服务-+-库存预扣减-+-kafka-消费者-+-k8s-部署/
 date: 2025-01-02T14:21:02+08:00
 lastmod: 2025-01-02T14:21:02+08:00
 author: MoonlightMaze

@@ -1,5 +1,8 @@
 ---
 title: ELK 日志收集 + 分布式追踪高级配置 + 全链路安全加固
+slug: elk-log-collection-distributed-tracing-security
+aliases:
+  - /posts/kitex/elk-日志收集-+-分布式追踪高级配置-+-全链路安全加固/
 date: 2025-01-04T14:21:02+08:00
 lastmod: 2025-01-04T14:21:02+08:00
 author: MoonlightMaze
