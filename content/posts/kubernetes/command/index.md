@@ -11,7 +11,7 @@ images:
 categories:
   - Kubernetes
 tags:
-  - k8s-Command
+  - Kubernetes基础
 # nolastmod: true
 draft: fale
 description: "Kubernete 命令大全"

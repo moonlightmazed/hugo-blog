@@ -11,7 +11,7 @@ images:
 categories:
   - Kubernetes
 tags:
-  - k8s-Controller
+  - Kubernetes基础
 # nolastmod: true
 draft: false
 description: "在 Kubernetes 中，控制器（Controller）是一个核心概念，它是一种控制循环，通过持续监控 Kubernetes API 服务器中的对象状态，并根据期望状态与实际状态的差异采取相应的操作，以确保系统始终处于用户所期望的状态。控制器不断地比较期望状态和实际状态，然后对资源进行创建、更新或删除操作，使实际状态逐渐趋近于期望状态。"

@@ -11,7 +11,7 @@ images:
 categories:
   - Kubernetes
 tags:
-  - Kind
+  - Kubernetes基础
 # nolastmod: true
 draft: false
 description: "kind是k8s官网提供给学习者用来创建k8s的一种方式，适用于学习环境下，资源不充足的情况。"

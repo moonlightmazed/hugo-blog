@@ -11,7 +11,7 @@ images:
 categories:
   - Kubernetes
 tags:
-  - HAP
+  - Kubernetes基础
 # nolastmod: true
 draft: false
 description: "HPA（Horizontal Pod Autoscaler）是 Kubernetes 的核心组件之一，用于根据应用程序的负载情况自动调整 Pod 副本数量，实现水平扩展或缩容。其核心目标是优化资源利用率、提高应用弹性，并减少人工运维成本。"

@@ -11,7 +11,7 @@ images:
 categories:
   - Kubernetes
 tags:
-  - k8s-Service
+  - Kubernetes基础
 # nolastmod: true
 draft: false
 description: "Kubernetes `Service`定义了这样一种抽象：逻辑上的一组 `Pod`，一种可以访问它们的策略 —— 通常被称为微服务。这一组 `Pod `能够被 `Service` 访问到，通常是通过 `selector`实现的。"

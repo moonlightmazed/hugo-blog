@@ -11,7 +11,7 @@ images:
 categories:
   - Kubernetes
 tags:
-  - k8s-Pod
+  - Kubernetes基础
 # nolastmod: true
 draft: fale
 description: "在 Kubernetes（K8s）里，Pod 属于最基础且最小的可部署单元。它代表一组紧密关联的容器集合，这些容器会共享存储、网络以及运行环境。可以把 Pod 当作是运行特定应用程序的一个“逻辑主机”。"
