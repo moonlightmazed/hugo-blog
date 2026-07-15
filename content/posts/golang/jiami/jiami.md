@@ -1,5 +1,5 @@
 ---
-title: Gin
+title: 加密
 date: 2024-12-05T14:21:02+08:00
 lastmod: 2024-12-05T14:21:02+08:00
 author: MoonlightMaze
