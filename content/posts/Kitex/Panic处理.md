@@ -14,7 +14,7 @@ tags:
   - Kitex
 # nolastmod: true
 draft: false
-description: "生产环境服务的"最后一道防线"——当业务代码出现 panic 时，中间件通过 `recover` 捕获堆栈、记录结构化日志、上报 Trace 上下文、Prometheus 指标，并给客户端返回标准错误响应，而不是直接 crash。"
+description: '生产环境服务的"最后一道防线"——当业务代码出现 panic 时，中间件通过 `recover` 捕获堆栈、记录结构化日志、上报 Trace 上下文、Prometheus 指标，并给客户端返回标准错误响应，而不是直接 crash。'
 ---
 
 
